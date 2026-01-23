@@ -30,6 +30,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: corne_dongle
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    artifact-name: xiao_dongle
 
   # reset settings
   - board: nice_nano_v2

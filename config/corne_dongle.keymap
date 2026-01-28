@@ -16,6 +16,7 @@
 / {
     behaviors {
         lh_pht: left_positional_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
             flavor = "balanced";
             tapping-term-ms = <280>;
             #binding-cells = <2>;
@@ -25,7 +26,9 @@
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
         };
+
         rh_pht: right_positional_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
             flavor = "balanced";
             tapping-term-ms = <280>;
             #binding-cells = <2>;

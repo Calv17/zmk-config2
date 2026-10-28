@@ -21,6 +21,7 @@
 include:
   - board: xiao_ble
     shield: corne_dongle
+    snippet: usb_logging
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 
   - board: nice_nano

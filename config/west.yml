@@ -4,9 +4,14 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: llwt
+      url-base: https://github.com/llwt
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: nice-view-gem
+      remote: llwt
+      revision: main
   self:
     path: config
